@@ -236,7 +236,7 @@ body {
   }
 
   .socials {
-    top: -150%;
+    top: -180%;
     left: 70.5%;
     width: 220px;
     height: 56px;
@@ -256,7 +256,7 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-    border: 6px solid transparent;
+    border: 12px solid transparent;
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
