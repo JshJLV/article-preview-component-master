@@ -186,6 +186,12 @@ body {
 }
 
 @media (width > 1023px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .content {
     display: flex;
     flex-direction: column;
@@ -194,8 +200,8 @@ body {
   }
 
   .container {
+    margin-top: 0px;
     height: 300px;
-    margin-top: 70px;
     flex-direction: row;
     border-radius: 8px;
   }
